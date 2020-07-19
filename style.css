@@ -272,7 +272,7 @@ nav li a:hover {
 .section-s5 {
   margin-bottom: 140px;
   height: 70vh;
-  background: linear-gradient(to left, rgb(250, 249, 249), rgb(218, 218, 215));
+  background: rgb(247, 249, 248);
   padding-top: 120px;
   padding-bottom: 130px;
 }
@@ -620,4 +620,167 @@ nav li a:hover {
   background: #ff5600;
   color: white;
   transition: all 0.4s ease-out 0s;
+}
+
+.section-s9 .footer-area {
+  background: rgb(26, 31, 35);
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.section-s9 .container {
+  max-width: 1200px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-s9 .footer-top .row {
+  display: flex;
+  justify-content: space-between;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.section-s9 .footer-top .row .single-logo {
+  max-width: 33.33%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section-s9 .footer-top .row .single-nav {
+  max-width: 16.66%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section-s9 .footer-top .row .single-link {
+  max-width: 16.66%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section-s9 .footer-top .row .single-gallery {
+  max-width: 33.33%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section-s9 .single-gallery .insta-feed {
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin: 0 -5px;
+}
+
+.section-s9 .single-gallery .insta-feed li {
+  width: 33.33%;
+  margin-bottom: 10px;
+  padding: 0 5px;
+}
+
+.section-s9 .single-footer {
+  margin-bottom: 50px;
+}
+
+.section-s9 .single-footer .footer-title h1 {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 38px;
+  font-weight: 500;
+}
+.section-s9 .single-footer .footer-title h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 38px;
+  font-weight: 500;
+}
+
+.section-s9 .single-footer .footer-title ul li {
+  color: #696b6d;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 38px;
+}
+
+.section-s9 .single-footer .footer-title .instagram-gallery ul li {
+  color: #696b6d;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.section-s9 li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.section-s9 .footer-bottom .row {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.section-s9 .single-bottom {
+  max-width: 66.66%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.section-s9 .single-bottom .footer-copy-right {
+  color: #696b6d;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 38px;
+}
+.section-s9 .single-bottom-social {
+  max-width: 33.33%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: inline-block;
+}
+.section-s9 .single-bottom-social span::before {
+  position: absolute;
+  content: "";
+  width: 43px;
+  height: 2px;
+  background: #3b3647;
+  top: 20%;
+  transform: translateY(-50%);
+  right: 254px;
+}
+.section-s9 .single-bottom-social span {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 57px;
+}
+
+.section-s9 .single-bottom-social a {
+  color: #848493;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 16px;
+}
+
+.section-s9 .single-bottom .f-right {
+  float: right;
 }
